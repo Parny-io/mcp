@@ -1,0 +1,29 @@
+{
+  "name": "parny",
+  "version": "0.1.0",
+  "description": "Parny MCP adapter for infrastructure visibility, service context and operational insights.",
+  "author": {
+    "name": "Parny"
+  },
+  "homepage": "https://parny.io",
+  "keywords": [
+    "parny",
+    "mcp",
+    "infrastructure",
+    "observability",
+    "operations"
+  ],
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "PARNY_OAUTH_CLIENT_ID": {
+        "type": "string",
+        "description": "Public OAuth client ID approved by Parny for Cursor. This is not a client secret."
+      }
+    },
+    "required": [
+      "PARNY_OAUTH_CLIENT_ID"
+    ]
+  }
+}

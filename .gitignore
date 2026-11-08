@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.cursor/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+*token*
+*credentials*
