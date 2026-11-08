@@ -66,3 +66,7 @@ Never commit tokens, API keys, cookies, customer data or private server source. 
 - [Cursor plugin reference](https://cursor.com/docs/reference/plugins)
 
 The repository owner must choose a distribution license before publication. No license grant is implied by this draft.
+
+## MCP and A2A
+
+See [MCP and A2A integration boundaries](docs/a2a.md) for evidence gathering, infrastructure/service context and customer-agent coordination. This package remains client-neutral; it is not an A2A runtime.
